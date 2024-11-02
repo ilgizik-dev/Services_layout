@@ -15,7 +15,6 @@
   font-family: "TTLakes";
   src: url('/fonts/TTLakes-Bold.woff');
   font-weight: 700;
-  font-weight: bold;
 }
 
 
@@ -42,14 +41,11 @@ a {
 
 h1 {
   margin: 0;
+  font-family: TTLakes;
 }
 
 p {
   margin: 0;
-}
-
-h1{
-  font-family: TTLakes;
 }
 
 /* Стили под ширину 320px*/
