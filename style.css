@@ -391,7 +391,7 @@ p {
     margin-left: 15px;
   }
 
-  .services--item:hover {
+  .services--item:first-child {
     border: 2px solid rgb(184, 255, 236);
     border-radius: 6px;
   }
