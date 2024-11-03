@@ -56,9 +56,30 @@ p {
   /* header */
   .header__menu--list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 90px;
+  }
+  .header__wrapper--first,
+  .header__wrapper--second {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+  }
+  .header__wrapper--first {
+    margin-left: 15px;
+  }
+  .header__wrapper--second {
+    margin-right: 15px;
+  }
+
+  .header__wrapper--second .header__menu--item:nth-child(1) {
+    display: none;
+    visibility: hidden;
+  }
+  .header__wrapper--second .header__menu--item:nth-child(2) {
+    display: none;
+    visibility: hidden;
   }
 
   .header__menu--divider {
@@ -127,10 +148,10 @@ p {
   }
   /* main article */
 
-.main__article{
-  width: 90vw;
-  height: 50%;
-}
+  .main__article {
+    width: 90vw;
+    height: 50%;
+  }
   .main__container {
     margin-left: 16px;
     color: rgb(27, 28, 33);
@@ -185,9 +206,27 @@ p {
   }
   .header__menu--list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 90px;
+  }
+
+  .header__wrapper--first,
+  .header__wrapper--second {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .header__wrapper--first {
+    margin-left: 25px;
+  }
+  .header__wrapper--second {
+    margin-right: 25px;
+  }
+
+  .header__wrapper--second .header__menu--item:nth-child() {
+    display: none;
+    visibility: hidden;
   }
 
   .header__menu--divider {
@@ -199,13 +238,6 @@ p {
   .header__menu--text {
     visibility: hidden;
     display: none;
-  }
-  .header__menu--item:nth-child(2) {
-    margin-left: 40px;
-  }
-
-  .header__menu--item:nth-child(3) {
-    margin-left: 250px;
   }
 
   /* Main title*/
@@ -256,9 +288,8 @@ p {
   .main__wrapper {
     display: flex;
   }
-  
 
-  .main__article{
+  .main__article {
     width: 50vw;
   }
   .main__container {
@@ -329,16 +360,20 @@ p {
   .header__menu--list {
     display: flex;
     margin-left: 715px;
-    align-items: center;
+    
     height: 90px;
   }
-
-  .header__menu--item {
-    margin-left: 10px;
+  .header__wrapper--first,
+  .header__wrapper--second {
+    display: flex;
+    align-items: center;
   }
 
   .header__menu--text {
     margin-left: 30px;
+    margin-right: 10px;
+    white-space: pre;
+    
   }
 
   .header__menu--item:nth-child(1) {
