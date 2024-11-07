@@ -21,7 +21,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: rgb(248, 248, 248);
+  background-color: rgb(248, 248, 248);
 }
 
 * {
@@ -60,6 +60,7 @@ p {
 @media (min-width: 320px) and (max-width: 767px) {
   body {
     margin: 0 auto;
+    
   }
 
   /* header */
@@ -73,6 +74,7 @@ p {
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    border-bottom: solid 1px rgb(217, 255, 245);
   }
 
   .header__wrapper--first,
@@ -155,6 +157,7 @@ p {
   .services--item:first-child {
     border: 2px solid rgb(184, 255, 236);
     border-radius: 6px;
+    background-color:  rgb(255, 255, 255);
   }
   .main-services--link {
     white-space: pre;
@@ -231,6 +234,7 @@ p {
     justify-content: space-between;
     align-items: center;
     height: 90px;
+    border-bottom: solid 1px rgb(217, 255, 245);
   }
 
   .header__wrapper--first,
